@@ -81,29 +81,29 @@ function Hero() {
                       className="w-12 h-12 rounded-full object-cover ring-4 ring-background"
                     />
                     <Image
-                      src=""
-                      alt="Jo"
+                      src="w.jpg"
+                      alt="W"
                       width={48}
                       height={48}
                       className="w-12 h-12 rounded-full object-cover ring-4 ring-background"
                     />
                     <Image
-                      src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=100&h=100&fit=crop&crop=face"
-                      alt="Anna Lopez"
+                      src="k.jpg"
+                      alt="K"
                       width={48}
                       height={48}
                       className="w-12 h-12 rounded-full object-cover ring-4 ring-background"
                     />
                     <Image
-                      src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?w=100&h=100&fit=crop&crop=face"
-                      alt="Mike Rodriguez"
+                      src="o.jpg"
+                      alt="O"
                       width={48}
                       height={48}
                       className="w-12 h-12 rounded-full object-cover ring-4 ring-background"
                     />
                     <Image
-                      src="https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=100&h=100&fit=crop&crop=face"
-                      alt="Katie Lee"
+                      src="c.jpg"
+                      alt="C"
                       width={48}
                       height={48}
                       className="w-12 h-12 rounded-full object-cover ring-4 ring-background"
