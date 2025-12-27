@@ -2,7 +2,6 @@
 import { type Metadata } from "next";
 import { ClerkProvider } from "@clerk/nextjs";
 import "./globals.css";
-import UserSync from "../components/UserSync";
 import TanStackProvider from "../components/providers/TanStackProvider";
 import { Toaster } from "sonner";
 
@@ -35,7 +34,8 @@ export default function RootLayout({
           <body
             className='antialiased dark'
           >
-            <UserSync />
+            {/* this is done home page  */}
+            {/* <UserSync /> */}
             <Toaster/>
             {children}
           </body>

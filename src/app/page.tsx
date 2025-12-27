@@ -8,9 +8,11 @@ import HowItWorks from "../components/landing/HowItWorks";
 import PricingSection from "../components/landing/PricingSection";
 import WhatToAsk from "../components/landing/WhatToAsk";
 import { redirect } from "next/navigation";
+import { syncUser } from "../lib/actions/users";
 
 export default async function Home() {
   const user = await currentUser();
+  await syncUser();
   if(user) redirect('/dashboard')
   return (
     <div className="min-h-screen bg-background">
