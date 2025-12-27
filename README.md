@@ -1,5 +1,7 @@
 🦷 DentHappy – Dental Platform with AI Voice Agent 🦷
 
+<img width="1917" height="917" alt="2025-12-27_16-29-42" src="https://github.com/user-attachments/assets/301caeac-c5bf-4005-ad52-eb8fac6b7963" />
+
 Highlights:
 
 🏠 Modern Landing Page with gradients & images
