@@ -1,8 +1,8 @@
-import { clsx, type ClassValue } from "clsx"
-import { twMerge } from "tailwind-merge"
+import { clsx, type ClassValue } from "clsx";
+import { twMerge } from "tailwind-merge";
 
 export function cn(...inputs: ClassValue[]) {
-  return twMerge(clsx(inputs))
+  return twMerge(clsx(inputs));
 }
 
 export function generateAvatar(name: string, gender: "MALE" | "FEMALE") {
@@ -13,6 +13,7 @@ export function generateAvatar(name: string, gender: "MALE" | "FEMALE") {
   return `${base}/boy?username=${username}`;
 }
 
+// phone formatting function for US numbers - ai generated 🎉
 export const formatPhoneNumber = (value: string) => {
   if (!value) return value;
 
@@ -26,6 +27,7 @@ export const formatPhoneNumber = (value: string) => {
   return `(${phoneNumber.slice(0, 3)}) ${phoneNumber.slice(3, 6)}-${phoneNumber.slice(6, 10)}`;
 };
 
+//  ai generated 🎉
 export const getNext5Days = () => {
   const dates = [];
   const tomorrow = new Date();
